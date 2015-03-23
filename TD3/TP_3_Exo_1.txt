@@ -1,0 +1,26 @@
+TD3 
+    
+    Exercice 1 :
+
+Si pas de loi normale, infaisable.
+        1/
+            A/
+                H0(µ)pop <= 50
+                H1(µ)pop > 50
+                
+                 Test unilatéral car µ < 50
+                 test de comparaison sur l'espérance
+                 Z = (^µ_n -µ_0)/(\sigma / \sqrt(n))
+                 Z = ( - )/(10/sqrt(10))
+                 
+             B/
+                q_norm(0,99) = 2,32, donc le test est non significatif pour 1%
+                q_norm(0,90) = 1,28, donc le test est non significatif pour 10%
+
+        2/
+            Moyenne empirique = moyenne échantillon = 51
+            
+            |t| = (51-50)/(10/(10\sqrt(2)))~=1,414
+            Qt(0,95; 199) = 1,65
+                199 et non 200 car n-1 degré de liberté
+            Or 1,414 < 1,65 donc le test est non significatif.
