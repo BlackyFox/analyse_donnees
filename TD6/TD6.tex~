@@ -1,0 +1,50 @@
+\documentclass{article}
+\usepackage{graphicx}
+\usepackage[utf8]{inputenc}
+\usepackage{array}
+\usepackage{tabularx}
+\usepackage[includeheadfoot,margin=2cm]{geometry}
+\usepackage[font=small,labelfont=bf,tableposition=bottom]{caption}
+\usepackage{booktabs}
+\usepackage[francais]{babel}
+
+\begin{document}
+
+\title{Titre}
+\author{Antoine PUISSANT}
+
+\maketitle
+
+\begin{abstract}
+The abstract text goes here.
+\end{abstract}
+\newpage
+\tableofcontents
+\newpage
+\section{Section 1}
+
+\begin{table}[!ht]
+  \centering
+  \footnotesize
+  \begin{tabular}{cccccccccccc}\toprule
+    Janvier & Février & Mars & Avril & Mai & Juin & Juillet & Aout & Septembre & Octobre & Novembre & Décembre \\\midrule
+    110 & 89 & 180 & 240 & 160 & 150 & 160 & 90 & 40 & 13 & 15 & 68\\\bottomrule
+  \end{tabular}
+  \caption{Exemple pour khi-deux}\label{tab:table}
+\end{table}
+\newpage
+\section{Section 2}
+Here is the text of your introduction.
+
+\begin{equation}
+    \label{simple_equation}
+    \alpha = \frac{\sqrt{ \beta }}{\gamma}
+\end{equation}
+
+\subsection{Subsection}
+Write your subsection text here.
+\newpage
+\section{Conclusion}
+Write your conclusion here.
+
+\end{document}
